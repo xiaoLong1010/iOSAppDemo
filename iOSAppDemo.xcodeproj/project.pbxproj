@@ -7,6 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2092DEFE1941CB63003A79BD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20A05FA3193E154E003E7DFD /* Foundation.framework */; };
+		2092DEFF1941CB63003A79BD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20A05FA5193E154E003E7DFD /* CoreGraphics.framework */; };
+		2092DF001941CB63003A79BD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20A05FA7193E154E003E7DFD /* UIKit.framework */; };
+		2092DF061941CB63003A79BD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2092DF041941CB63003A79BD /* InfoPlist.strings */; };
+		2092DF081941CB63003A79BD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2092DF071941CB63003A79BD /* main.m */; };
+		2092DF0C1941CB63003A79BD /* CsyAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2092DF0B1941CB63003A79BD /* CsyAppDelegate.m */; };
+		2092DF0F1941CB63003A79BD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2092DF0D1941CB63003A79BD /* Main.storyboard */; };
+		2092DF121941CB63003A79BD /* CsyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2092DF111941CB63003A79BD /* CsyViewController.m */; };
+		2092DF141941CB63003A79BD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2092DF131941CB63003A79BD /* Images.xcassets */; };
+		2092DF1A1941CB63003A79BD /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20A05FC2193E154E003E7DFD /* XCTest.framework */; };
+		2092DF1B1941CB63003A79BD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20A05FA3193E154E003E7DFD /* Foundation.framework */; };
+		2092DF1C1941CB63003A79BD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20A05FA7193E154E003E7DFD /* UIKit.framework */; };
+		2092DF241941CB64003A79BD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2092DF221941CB64003A79BD /* InfoPlist.strings */; };
+		2092DF261941CB64003A79BD /* _4_PrivateContactsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2092DF251941CB64003A79BD /* _4_PrivateContactsTests.m */; };
+		2092DF311941CD98003A79BD /* CsyContacter.m in Sources */ = {isa = PBXBuildFile; fileRef = 2092DF301941CD98003A79BD /* CsyContacter.m */; };
+		2092DF341941CE89003A79BD /* CsyContacterDAO.m in Sources */ = {isa = PBXBuildFile; fileRef = 2092DF331941CE89003A79BD /* CsyContacterDAO.m */; };
+		2092DF3A1941D6A6003A79BD /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20A05FC2193E154E003E7DFD /* XCTest.framework */; };
+		2092DF3B1941D6A6003A79BD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20A05FA3193E154E003E7DFD /* Foundation.framework */; };
+		2092DF3C1941D6A6003A79BD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20A05FA7193E154E003E7DFD /* UIKit.framework */; };
+		2092DF421941D6A6003A79BD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2092DF401941D6A6003A79BD /* InfoPlist.strings */; };
+		2092DF441941D6A6003A79BD /* _4_PrivateContactsLogicTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2092DF431941D6A6003A79BD /* _4_PrivateContactsLogicTests.m */; };
 		20A05FDD193E15B8003E7DFD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20A05FA3193E154E003E7DFD /* Foundation.framework */; };
 		20A05FDE193E15B8003E7DFD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20A05FA5193E154E003E7DFD /* CoreGraphics.framework */; };
 		20A05FDF193E15B8003E7DFD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20A05FA7193E154E003E7DFD /* UIKit.framework */; };
@@ -24,6 +45,20 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		2092DF1D1941CB64003A79BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 20A05F98193E154E003E7DFD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2092DEFC1941CB63003A79BD;
+			remoteInfo = "14-PrivateContacts";
+		};
+		2092DF461941D6A6003A79BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 20A05F98193E154E003E7DFD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2092DEFC1941CB63003A79BD;
+			remoteInfo = "14-PrivateContacts";
+		};
 		20A05FFC193E15B8003E7DFD /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 20A05F98193E154E003E7DFD /* Project object */;
@@ -34,6 +69,30 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2092DEFD1941CB63003A79BD /* 14-PrivateContacts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "14-PrivateContacts.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2092DF031941CB63003A79BD /* 14-PrivateContacts-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "14-PrivateContacts-Info.plist"; sourceTree = "<group>"; };
+		2092DF051941CB63003A79BD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2092DF071941CB63003A79BD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2092DF091941CB63003A79BD /* 14-PrivateContacts-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "14-PrivateContacts-Prefix.pch"; sourceTree = "<group>"; };
+		2092DF0A1941CB63003A79BD /* CsyAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CsyAppDelegate.h; sourceTree = "<group>"; };
+		2092DF0B1941CB63003A79BD /* CsyAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CsyAppDelegate.m; sourceTree = "<group>"; };
+		2092DF0E1941CB63003A79BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2092DF101941CB63003A79BD /* CsyViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CsyViewController.h; sourceTree = "<group>"; };
+		2092DF111941CB63003A79BD /* CsyViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CsyViewController.m; sourceTree = "<group>"; };
+		2092DF131941CB63003A79BD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		2092DF191941CB63003A79BD /* 14-PrivateContactsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "14-PrivateContactsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2092DF211941CB64003A79BD /* 14-PrivateContactsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "14-PrivateContactsTests-Info.plist"; sourceTree = "<group>"; };
+		2092DF231941CB64003A79BD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2092DF251941CB64003A79BD /* _4_PrivateContactsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _4_PrivateContactsTests.m; sourceTree = "<group>"; };
+		2092DF2F1941CD98003A79BD /* CsyContacter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CsyContacter.h; sourceTree = "<group>"; };
+		2092DF301941CD98003A79BD /* CsyContacter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CsyContacter.m; sourceTree = "<group>"; };
+		2092DF321941CE89003A79BD /* CsyContacterDAO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CsyContacterDAO.h; sourceTree = "<group>"; };
+		2092DF331941CE89003A79BD /* CsyContacterDAO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CsyContacterDAO.m; sourceTree = "<group>"; };
+		2092DF391941D6A6003A79BD /* 14-PrivateContactsLogicTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "14-PrivateContactsLogicTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2092DF3F1941D6A6003A79BD /* 14-PrivateContactsLogicTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "14-PrivateContactsLogicTests-Info.plist"; sourceTree = "<group>"; };
+		2092DF411941D6A6003A79BD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2092DF431941D6A6003A79BD /* _4_PrivateContactsLogicTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _4_PrivateContactsLogicTests.m; sourceTree = "<group>"; };
+		2092DF451941D6A6003A79BD /* 14-PrivateContactsLogicTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "14-PrivateContactsLogicTests-Prefix.pch"; sourceTree = "<group>"; };
 		20A05FA3193E154E003E7DFD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		20A05FA5193E154E003E7DFD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		20A05FA7193E154E003E7DFD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -56,6 +115,36 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		2092DEFA1941CB63003A79BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2092DEFF1941CB63003A79BD /* CoreGraphics.framework in Frameworks */,
+				2092DF001941CB63003A79BD /* UIKit.framework in Frameworks */,
+				2092DEFE1941CB63003A79BD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2092DF161941CB63003A79BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2092DF1A1941CB63003A79BD /* XCTest.framework in Frameworks */,
+				2092DF1C1941CB63003A79BD /* UIKit.framework in Frameworks */,
+				2092DF1B1941CB63003A79BD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2092DF361941D6A6003A79BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2092DF3A1941D6A6003A79BD /* XCTest.framework in Frameworks */,
+				2092DF3C1941D6A6003A79BD /* UIKit.framework in Frameworks */,
+				2092DF3B1941D6A6003A79BD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		20A05FD9193E15B8003E7DFD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -79,11 +168,96 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2092DF011941CB63003A79BD /* 14-PrivateContacts */ = {
+			isa = PBXGroup;
+			children = (
+				2092DF2D1941CC0F003A79BD /* Classes */,
+				2092DF0A1941CB63003A79BD /* CsyAppDelegate.h */,
+				2092DF0B1941CB63003A79BD /* CsyAppDelegate.m */,
+				2092DF0D1941CB63003A79BD /* Main.storyboard */,
+				2092DF101941CB63003A79BD /* CsyViewController.h */,
+				2092DF111941CB63003A79BD /* CsyViewController.m */,
+				2092DF131941CB63003A79BD /* Images.xcassets */,
+				2092DF021941CB63003A79BD /* Supporting Files */,
+			);
+			path = "14-PrivateContacts";
+			sourceTree = "<group>";
+		};
+		2092DF021941CB63003A79BD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2092DF031941CB63003A79BD /* 14-PrivateContacts-Info.plist */,
+				2092DF041941CB63003A79BD /* InfoPlist.strings */,
+				2092DF071941CB63003A79BD /* main.m */,
+				2092DF091941CB63003A79BD /* 14-PrivateContacts-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2092DF1F1941CB64003A79BD /* 14-PrivateContactsTests */ = {
+			isa = PBXGroup;
+			children = (
+				2092DF251941CB64003A79BD /* _4_PrivateContactsTests.m */,
+				2092DF201941CB64003A79BD /* Supporting Files */,
+			);
+			path = "14-PrivateContactsTests";
+			sourceTree = "<group>";
+		};
+		2092DF201941CB64003A79BD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2092DF211941CB64003A79BD /* 14-PrivateContactsTests-Info.plist */,
+				2092DF221941CB64003A79BD /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2092DF2D1941CC0F003A79BD /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				2092DF2E1941CD3C003A79BD /* Persistence */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		2092DF2E1941CD3C003A79BD /* Persistence */ = {
+			isa = PBXGroup;
+			children = (
+				2092DF2F1941CD98003A79BD /* CsyContacter.h */,
+				2092DF301941CD98003A79BD /* CsyContacter.m */,
+				2092DF321941CE89003A79BD /* CsyContacterDAO.h */,
+				2092DF331941CE89003A79BD /* CsyContacterDAO.m */,
+			);
+			name = Persistence;
+			sourceTree = "<group>";
+		};
+		2092DF3D1941D6A6003A79BD /* 14-PrivateContactsLogicTests */ = {
+			isa = PBXGroup;
+			children = (
+				2092DF431941D6A6003A79BD /* _4_PrivateContactsLogicTests.m */,
+				2092DF3E1941D6A6003A79BD /* Supporting Files */,
+			);
+			path = "14-PrivateContactsLogicTests";
+			sourceTree = "<group>";
+		};
+		2092DF3E1941D6A6003A79BD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2092DF3F1941D6A6003A79BD /* 14-PrivateContactsLogicTests-Info.plist */,
+				2092DF401941D6A6003A79BD /* InfoPlist.strings */,
+				2092DF451941D6A6003A79BD /* 14-PrivateContactsLogicTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		20A05F97193E154E003E7DFD = {
 			isa = PBXGroup;
 			children = (
 				20A05FE0193E15B8003E7DFD /* 13-PickMenu */,
 				20A05FFE193E15B8003E7DFD /* 13-PickMenuTests */,
+				2092DF011941CB63003A79BD /* 14-PrivateContacts */,
+				2092DF1F1941CB64003A79BD /* 14-PrivateContactsTests */,
+				2092DF3D1941D6A6003A79BD /* 14-PrivateContactsLogicTests */,
 				20A05FA2193E154E003E7DFD /* Frameworks */,
 				20A05FA1193E154E003E7DFD /* Products */,
 			);
@@ -94,6 +268,9 @@
 			children = (
 				20A05FDC193E15B8003E7DFD /* 13-PickMenu.app */,
 				20A05FF8193E15B8003E7DFD /* 13-PickMenuTests.xctest */,
+				2092DEFD1941CB63003A79BD /* 14-PrivateContacts.app */,
+				2092DF191941CB63003A79BD /* 14-PrivateContactsTests.xctest */,
+				2092DF391941D6A6003A79BD /* 14-PrivateContactsLogicTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -155,6 +332,59 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		2092DEFC1941CB63003A79BD /* 14-PrivateContacts */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2092DF2B1941CB64003A79BD /* Build configuration list for PBXNativeTarget "14-PrivateContacts" */;
+			buildPhases = (
+				2092DEF91941CB63003A79BD /* Sources */,
+				2092DEFA1941CB63003A79BD /* Frameworks */,
+				2092DEFB1941CB63003A79BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "14-PrivateContacts";
+			productName = "14-PrivateContacts";
+			productReference = 2092DEFD1941CB63003A79BD /* 14-PrivateContacts.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2092DF181941CB63003A79BD /* 14-PrivateContactsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2092DF2C1941CB64003A79BD /* Build configuration list for PBXNativeTarget "14-PrivateContactsTests" */;
+			buildPhases = (
+				2092DF151941CB63003A79BD /* Sources */,
+				2092DF161941CB63003A79BD /* Frameworks */,
+				2092DF171941CB63003A79BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2092DF1E1941CB64003A79BD /* PBXTargetDependency */,
+			);
+			name = "14-PrivateContactsTests";
+			productName = "14-PrivateContactsTests";
+			productReference = 2092DF191941CB63003A79BD /* 14-PrivateContactsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2092DF381941D6A6003A79BD /* 14-PrivateContactsLogicTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2092DF481941D6A6003A79BD /* Build configuration list for PBXNativeTarget "14-PrivateContactsLogicTests" */;
+			buildPhases = (
+				2092DF351941D6A6003A79BD /* Sources */,
+				2092DF361941D6A6003A79BD /* Frameworks */,
+				2092DF371941D6A6003A79BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2092DF471941D6A6003A79BD /* PBXTargetDependency */,
+			);
+			name = "14-PrivateContactsLogicTests";
+			productName = "14-PrivateContactsLogicTests";
+			productReference = 2092DF391941D6A6003A79BD /* 14-PrivateContactsLogicTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		20A05FDB193E15B8003E7DFD /* 13-PickMenu */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 20A06006193E15B9003E7DFD /* Build configuration list for PBXNativeTarget "13-PickMenu" */;
@@ -200,8 +430,14 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = cl;
 				TargetAttributes = {
+					2092DF181941CB63003A79BD = {
+						TestTargetID = 20A05FDB193E15B8003E7DFD;
+					};
+					2092DF381941D6A6003A79BD = {
+						TestTargetID = 2092DEFC1941CB63003A79BD;
+					};
 					20A05FF7193E15B8003E7DFD = {
-						TestTargetID = 20A05F9F193E154E003E7DFD;
+						TestTargetID = 20A05FDB193E15B8003E7DFD;
 					};
 				};
 			};
@@ -220,11 +456,40 @@
 			targets = (
 				20A05FDB193E15B8003E7DFD /* 13-PickMenu */,
 				20A05FF7193E15B8003E7DFD /* 13-PickMenuTests */,
+				2092DEFC1941CB63003A79BD /* 14-PrivateContacts */,
+				2092DF181941CB63003A79BD /* 14-PrivateContactsTests */,
+				2092DF381941D6A6003A79BD /* 14-PrivateContactsLogicTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		2092DEFB1941CB63003A79BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2092DF141941CB63003A79BD /* Images.xcassets in Resources */,
+				2092DF061941CB63003A79BD /* InfoPlist.strings in Resources */,
+				2092DF0F1941CB63003A79BD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2092DF171941CB63003A79BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2092DF241941CB64003A79BD /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2092DF371941D6A6003A79BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2092DF421941D6A6003A79BD /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		20A05FDA193E15B8003E7DFD /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -246,6 +511,34 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		2092DEF91941CB63003A79BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2092DF0C1941CB63003A79BD /* CsyAppDelegate.m in Sources */,
+				2092DF121941CB63003A79BD /* CsyViewController.m in Sources */,
+				2092DF081941CB63003A79BD /* main.m in Sources */,
+				2092DF311941CD98003A79BD /* CsyContacter.m in Sources */,
+				2092DF341941CE89003A79BD /* CsyContacterDAO.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2092DF151941CB63003A79BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2092DF261941CB64003A79BD /* _4_PrivateContactsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2092DF351941D6A6003A79BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2092DF441941D6A6003A79BD /* _4_PrivateContactsLogicTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		20A05FD8193E15B8003E7DFD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -267,6 +560,16 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		2092DF1E1941CB64003A79BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2092DEFC1941CB63003A79BD /* 14-PrivateContacts */;
+			targetProxy = 2092DF1D1941CB64003A79BD /* PBXContainerItemProxy */;
+		};
+		2092DF471941D6A6003A79BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2092DEFC1941CB63003A79BD /* 14-PrivateContacts */;
+			targetProxy = 2092DF461941D6A6003A79BD /* PBXContainerItemProxy */;
+		};
 		20A05FFD193E15B8003E7DFD /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 20A05FDB193E15B8003E7DFD /* 13-PickMenu */;
@@ -275,6 +578,38 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		2092DF041941CB63003A79BD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2092DF051941CB63003A79BD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2092DF0D1941CB63003A79BD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2092DF0E1941CB63003A79BD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2092DF221941CB64003A79BD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2092DF231941CB64003A79BD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2092DF401941D6A6003A79BD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2092DF411941D6A6003A79BD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
 		20A05FE3193E15B8003E7DFD /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -294,6 +629,116 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		2092DF271941CB64003A79BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "14-PrivateContacts/14-PrivateContacts-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "14-PrivateContacts/14-PrivateContacts-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2092DF281941CB64003A79BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "14-PrivateContacts/14-PrivateContacts-Prefix.pch";
+				INFOPLIST_FILE = "14-PrivateContacts/14-PrivateContacts-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		2092DF291941CB64003A79BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/13-PickMenu.app/13-PickMenu";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "14-PrivateContacts/14-PrivateContacts-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "14-PrivateContactsTests/14-PrivateContactsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		2092DF2A1941CB64003A79BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/13-PickMenu.app/13-PickMenu";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "14-PrivateContacts/14-PrivateContacts-Prefix.pch";
+				INFOPLIST_FILE = "14-PrivateContactsTests/14-PrivateContactsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+		2092DF491941D6A6003A79BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/14-PrivateContacts.app/14-PrivateContacts";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "14-PrivateContactsLogicTests/14-PrivateContactsLogicTests-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "14-PrivateContactsLogicTests/14-PrivateContactsLogicTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		2092DF4A1941D6A6003A79BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/14-PrivateContacts.app/14-PrivateContacts";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "14-PrivateContactsLogicTests/14-PrivateContactsLogicTests-Prefix.pch";
+				INFOPLIST_FILE = "14-PrivateContactsLogicTests/14-PrivateContactsLogicTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
 		20A05FD0193E154E003E7DFD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -397,7 +842,7 @@
 		20A0600A193E15B9003E7DFD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iOSAppDemo.app/iOSAppDemo";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/13-PickMenu.app/13-PickMenu";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -419,7 +864,7 @@
 		20A0600B193E15B9003E7DFD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iOSAppDemo.app/iOSAppDemo";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/13-PickMenu.app/13-PickMenu";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -437,6 +882,30 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		2092DF2B1941CB64003A79BD /* Build configuration list for PBXNativeTarget "14-PrivateContacts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2092DF271941CB64003A79BD /* Debug */,
+				2092DF281941CB64003A79BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2092DF2C1941CB64003A79BD /* Build configuration list for PBXNativeTarget "14-PrivateContactsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2092DF291941CB64003A79BD /* Debug */,
+				2092DF2A1941CB64003A79BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2092DF481941D6A6003A79BD /* Build configuration list for PBXNativeTarget "14-PrivateContactsLogicTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2092DF491941D6A6003A79BD /* Debug */,
+				2092DF4A1941D6A6003A79BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		20A05F9B193E154E003E7DFD /* Build configuration list for PBXProject "iOSAppDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -453,6 +922,7 @@
 				20A06008193E15B9003E7DFD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		20A06009193E15B9003E7DFD /* Build configuration list for PBXNativeTarget "13-PickMenuTests" */ = {
 			isa = XCConfigurationList;
@@ -461,6 +931,7 @@
 				20A0600B193E15B9003E7DFD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
