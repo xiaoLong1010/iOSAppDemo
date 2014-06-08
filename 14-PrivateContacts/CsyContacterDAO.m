@@ -52,4 +52,75 @@ static CsyContacterDAO *contacterDAO = nil;
     
 }
 
+//删除数据
+- (void)delete:(CsyContacter *)contacter
+{
+    NSMutableArray *contacters = [self findAll];
+    
+    for (CsyContacter *contact in contacters) {
+        if ([contact isEqual:contacter]) {
+            
+        }
+    }
+}
+
+- (void)deleteWithIndex:(NSInteger)index
+{
+    //1 删掉指定的数据
+    NSMutableArray *contacters = [self findAll];
+    [contacters removeObjectAtIndex:index];
+
+    //2 获取文件path
+    NSString *path = [self applicationDocumentsDirectoryFile];
+    
+    //3 写入数据到文件,先转换成NSDictonary
+    NSMutableArray *datas = [NSMutableArray arrayWithCapacity:contacters.count];
+    for (CsyContacter *contacter in contacters) {
+        NSDictionary *dict = @{@"name":contacter.name,@"phoneNum":contacter.phoneNum};
+        [datas addObject:dict];
+    }
+    [datas writeToFile:path atomically:YES];
+}
+
+//查询数据
+- (NSMutableArray *)findAll
+{
+    //1 获取文件path
+    NSString *path = [self applicationDocumentsDirectoryFile];
+    //2 获取文件已经存在的数据,dicts
+    NSArray *dicts = [NSArray arrayWithContentsOfFile:path];
+    
+    NSMutableArray *datas = [NSMutableArray arrayWithCapacity:dicts.count];
+    
+    //3 遍历数组,生成所有的contacter
+    for (NSDictionary *dict in dicts) {
+        CsyContacter *contacter = [CsyContacter contacterWithDictionary:dict];
+        [datas addObject:contacter];
+    }
+    
+    return datas;
+}
+
+- (void)updateContacterWithContacter:(CsyContacter *)contacter WithIndex:(NSIndexPath *)indexPath;
+{
+    //1 获取文件,并更新数据
+    NSMutableArray *contacters = [self findAll];
+    
+    [contacters[indexPath.row] setName:contacter.name];
+    [contacters[indexPath.row] setPhoneNum:contacter.phoneNum];
+    
+    //2 获取文件path
+    NSString *path = [self applicationDocumentsDirectoryFile];
+    
+    //3 写入数据到文件,先转换成NSDictonary
+    NSMutableArray *datas = [NSMutableArray arrayWithCapacity:contacters.count];
+    for (CsyContacter *contacter in contacters) {
+        NSDictionary *dict = @{@"name":contacter.name,@"phoneNum":contacter.phoneNum};
+        [datas addObject:dict];
+    }
+    [datas writeToFile:path atomically:YES];
+    
+    
+}
+
 @end

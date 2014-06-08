@@ -15,4 +15,11 @@
 
 - (void)create:(CsyContacter *)contacter;
 
+- (NSMutableArray *)findAll;
+
+- (void)delete:(CsyContacter *)contacter;
+
+- (void)deleteWithIndex:(NSInteger)index;
+
+- (void)updateContacterWithContacter:(CsyContacter *)contacter WithIndex:(NSIndexPath *)indexPath;
 @end

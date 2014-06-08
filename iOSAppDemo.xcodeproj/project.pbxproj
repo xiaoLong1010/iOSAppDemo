@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		206891D21943F90D0075CFC2 /* CsyAddController.m in Sources */ = {isa = PBXBuildFile; fileRef = 206891D11943F90D0075CFC2 /* CsyAddController.m */; };
+		206891D519445FA80075CFC2 /* CsyUpdateController.m in Sources */ = {isa = PBXBuildFile; fileRef = 206891D419445FA80075CFC2 /* CsyUpdateController.m */; };
 		2092DEFE1941CB63003A79BD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20A05FA3193E154E003E7DFD /* Foundation.framework */; };
 		2092DEFF1941CB63003A79BD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20A05FA5193E154E003E7DFD /* CoreGraphics.framework */; };
 		2092DF001941CB63003A79BD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20A05FA7193E154E003E7DFD /* UIKit.framework */; };
@@ -14,7 +16,6 @@
 		2092DF081941CB63003A79BD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2092DF071941CB63003A79BD /* main.m */; };
 		2092DF0C1941CB63003A79BD /* CsyAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2092DF0B1941CB63003A79BD /* CsyAppDelegate.m */; };
 		2092DF0F1941CB63003A79BD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2092DF0D1941CB63003A79BD /* Main.storyboard */; };
-		2092DF121941CB63003A79BD /* CsyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2092DF111941CB63003A79BD /* CsyViewController.m */; };
 		2092DF141941CB63003A79BD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2092DF131941CB63003A79BD /* Images.xcassets */; };
 		2092DF1A1941CB63003A79BD /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20A05FC2193E154E003E7DFD /* XCTest.framework */; };
 		2092DF1B1941CB63003A79BD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20A05FA3193E154E003E7DFD /* Foundation.framework */; };
@@ -28,6 +29,7 @@
 		2092DF3C1941D6A6003A79BD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20A05FA7193E154E003E7DFD /* UIKit.framework */; };
 		2092DF421941D6A6003A79BD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2092DF401941D6A6003A79BD /* InfoPlist.strings */; };
 		2092DF441941D6A6003A79BD /* _4_PrivateContactsLogicTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2092DF431941D6A6003A79BD /* _4_PrivateContactsLogicTests.m */; };
+		2092DF561941E576003A79BD /* CsyLoginController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2092DF551941E576003A79BD /* CsyLoginController.m */; };
 		20A05FDD193E15B8003E7DFD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20A05FA3193E154E003E7DFD /* Foundation.framework */; };
 		20A05FDE193E15B8003E7DFD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20A05FA5193E154E003E7DFD /* CoreGraphics.framework */; };
 		20A05FDF193E15B8003E7DFD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20A05FA7193E154E003E7DFD /* UIKit.framework */; };
@@ -42,6 +44,9 @@
 		20A06010193E164E003E7DFD /* CsyAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 20A0600D193E164E003E7DFD /* CsyAppDelegate.m */; };
 		20A06011193E164E003E7DFD /* CsyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 20A0600F193E164E003E7DFD /* CsyViewController.m */; };
 		20A06013193E1662003E7DFD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20A06012193E1662003E7DFD /* Main.storyboard */; };
+		20B113521941FC6D00DE2E41 /* CsyContactersController.m in Sources */ = {isa = PBXBuildFile; fileRef = 20B113511941FC6D00DE2E41 /* CsyContactersController.m */; };
+		20B113551942001700DE2E41 /* CsyContacterCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 20B113541942001700DE2E41 /* CsyContacterCell.m */; };
+		20B113581942048100DE2E41 /* CsyContacterService.m in Sources */ = {isa = PBXBuildFile; fileRef = 20B113571942048100DE2E41 /* CsyContacterService.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +74,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		206891D01943F90D0075CFC2 /* CsyAddController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CsyAddController.h; sourceTree = "<group>"; };
+		206891D11943F90D0075CFC2 /* CsyAddController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CsyAddController.m; sourceTree = "<group>"; };
+		206891D319445FA80075CFC2 /* CsyUpdateController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CsyUpdateController.h; sourceTree = "<group>"; };
+		206891D419445FA80075CFC2 /* CsyUpdateController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CsyUpdateController.m; sourceTree = "<group>"; };
 		2092DEFD1941CB63003A79BD /* 14-PrivateContacts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "14-PrivateContacts.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2092DF031941CB63003A79BD /* 14-PrivateContacts-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "14-PrivateContacts-Info.plist"; sourceTree = "<group>"; };
 		2092DF051941CB63003A79BD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -77,8 +86,6 @@
 		2092DF0A1941CB63003A79BD /* CsyAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CsyAppDelegate.h; sourceTree = "<group>"; };
 		2092DF0B1941CB63003A79BD /* CsyAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CsyAppDelegate.m; sourceTree = "<group>"; };
 		2092DF0E1941CB63003A79BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		2092DF101941CB63003A79BD /* CsyViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CsyViewController.h; sourceTree = "<group>"; };
-		2092DF111941CB63003A79BD /* CsyViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CsyViewController.m; sourceTree = "<group>"; };
 		2092DF131941CB63003A79BD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		2092DF191941CB63003A79BD /* 14-PrivateContactsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "14-PrivateContactsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2092DF211941CB64003A79BD /* 14-PrivateContactsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "14-PrivateContactsTests-Info.plist"; sourceTree = "<group>"; };
@@ -93,6 +100,8 @@
 		2092DF411941D6A6003A79BD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		2092DF431941D6A6003A79BD /* _4_PrivateContactsLogicTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _4_PrivateContactsLogicTests.m; sourceTree = "<group>"; };
 		2092DF451941D6A6003A79BD /* 14-PrivateContactsLogicTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "14-PrivateContactsLogicTests-Prefix.pch"; sourceTree = "<group>"; };
+		2092DF541941E576003A79BD /* CsyLoginController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CsyLoginController.h; sourceTree = "<group>"; };
+		2092DF551941E576003A79BD /* CsyLoginController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CsyLoginController.m; sourceTree = "<group>"; };
 		20A05FA3193E154E003E7DFD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		20A05FA5193E154E003E7DFD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		20A05FA7193E154E003E7DFD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -112,6 +121,12 @@
 		20A0600E193E164E003E7DFD /* CsyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CsyViewController.h; sourceTree = "<group>"; };
 		20A0600F193E164E003E7DFD /* CsyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CsyViewController.m; sourceTree = "<group>"; };
 		20A06012193E1662003E7DFD /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		20B113501941FC6D00DE2E41 /* CsyContactersController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CsyContactersController.h; sourceTree = "<group>"; };
+		20B113511941FC6D00DE2E41 /* CsyContactersController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CsyContactersController.m; sourceTree = "<group>"; };
+		20B113531942001700DE2E41 /* CsyContacterCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CsyContacterCell.h; sourceTree = "<group>"; };
+		20B113541942001700DE2E41 /* CsyContacterCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CsyContacterCell.m; sourceTree = "<group>"; };
+		20B113561942048100DE2E41 /* CsyContacterService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CsyContacterService.h; sourceTree = "<group>"; };
+		20B113571942048100DE2E41 /* CsyContacterService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CsyContacterService.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -172,11 +187,6 @@
 			isa = PBXGroup;
 			children = (
 				2092DF2D1941CC0F003A79BD /* Classes */,
-				2092DF0A1941CB63003A79BD /* CsyAppDelegate.h */,
-				2092DF0B1941CB63003A79BD /* CsyAppDelegate.m */,
-				2092DF0D1941CB63003A79BD /* Main.storyboard */,
-				2092DF101941CB63003A79BD /* CsyViewController.h */,
-				2092DF111941CB63003A79BD /* CsyViewController.m */,
 				2092DF131941CB63003A79BD /* Images.xcassets */,
 				2092DF021941CB63003A79BD /* Supporting Files */,
 			);
@@ -215,7 +225,12 @@
 		2092DF2D1941CC0F003A79BD /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				20E7AAB419448A05009FBB5E /* Tools */,
+				209727751943ECC80053AFED /* Controller */,
+				2092DF531941E373003A79BD /* Delegate */,
+				2092DF521941E359003A79BD /* View */,
 				2092DF2E1941CD3C003A79BD /* Persistence */,
+				2092DF511941E340003A79BD /* Service */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -248,6 +263,49 @@
 				2092DF451941D6A6003A79BD /* 14-PrivateContactsLogicTests-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2092DF511941E340003A79BD /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				20B113561942048100DE2E41 /* CsyContacterService.h */,
+				20B113571942048100DE2E41 /* CsyContacterService.m */,
+			);
+			name = Service;
+			sourceTree = "<group>";
+		};
+		2092DF521941E359003A79BD /* View */ = {
+			isa = PBXGroup;
+			children = (
+				20B113531942001700DE2E41 /* CsyContacterCell.h */,
+				20B113541942001700DE2E41 /* CsyContacterCell.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		2092DF531941E373003A79BD /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				2092DF0A1941CB63003A79BD /* CsyAppDelegate.h */,
+				2092DF0B1941CB63003A79BD /* CsyAppDelegate.m */,
+			);
+			name = Delegate;
+			sourceTree = "<group>";
+		};
+		209727751943ECC80053AFED /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2092DF0D1941CB63003A79BD /* Main.storyboard */,
+				2092DF541941E576003A79BD /* CsyLoginController.h */,
+				2092DF551941E576003A79BD /* CsyLoginController.m */,
+				20B113501941FC6D00DE2E41 /* CsyContactersController.h */,
+				20B113511941FC6D00DE2E41 /* CsyContactersController.m */,
+				206891D01943F90D0075CFC2 /* CsyAddController.h */,
+				206891D11943F90D0075CFC2 /* CsyAddController.m */,
+				206891D319445FA80075CFC2 /* CsyUpdateController.h */,
+				206891D419445FA80075CFC2 /* CsyUpdateController.m */,
+			);
+			name = Controller;
 			sourceTree = "<group>";
 		};
 		20A05F97193E154E003E7DFD = {
@@ -327,6 +385,13 @@
 				20A06001193E15B8003E7DFD /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		20E7AAB419448A05009FBB5E /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Tools;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -515,9 +580,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2092DF561941E576003A79BD /* CsyLoginController.m in Sources */,
+				20B113551942001700DE2E41 /* CsyContacterCell.m in Sources */,
+				206891D519445FA80075CFC2 /* CsyUpdateController.m in Sources */,
 				2092DF0C1941CB63003A79BD /* CsyAppDelegate.m in Sources */,
-				2092DF121941CB63003A79BD /* CsyViewController.m in Sources */,
+				206891D21943F90D0075CFC2 /* CsyAddController.m in Sources */,
+				20B113581942048100DE2E41 /* CsyContacterService.m in Sources */,
 				2092DF081941CB63003A79BD /* main.m in Sources */,
+				20B113521941FC6D00DE2E41 /* CsyContactersController.m in Sources */,
 				2092DF311941CD98003A79BD /* CsyContacter.m in Sources */,
 				2092DF341941CE89003A79BD /* CsyContacterDAO.m in Sources */,
 			);
@@ -889,6 +959,7 @@
 				2092DF281941CB64003A79BD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2092DF2C1941CB64003A79BD /* Build configuration list for PBXNativeTarget "14-PrivateContactsTests" */ = {
 			isa = XCConfigurationList;
@@ -897,6 +968,7 @@
 				2092DF2A1941CB64003A79BD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2092DF481941D6A6003A79BD /* Build configuration list for PBXNativeTarget "14-PrivateContactsLogicTests" */ = {
 			isa = XCConfigurationList;
@@ -905,6 +977,7 @@
 				2092DF4A1941D6A6003A79BD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		20A05F9B193E154E003E7DFD /* Build configuration list for PBXProject "iOSAppDemo" */ = {
 			isa = XCConfigurationList;

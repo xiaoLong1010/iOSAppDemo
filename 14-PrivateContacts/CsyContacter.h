@@ -13,4 +13,10 @@
 @property (copy,nonatomic) NSString *name;
 @property (copy,nonatomic) NSString *phoneNum;
 
+- (instancetype) initWithDictionary:(NSDictionary *)dict;
++ (instancetype) contacterWithDictionary:(NSDictionary *)dict;
+
+//重写相等的判断标准
+- (BOOL)isEqual:(id)object;
+
 @end
